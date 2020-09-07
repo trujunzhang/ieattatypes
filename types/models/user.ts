@@ -1,4 +1,5 @@
 export interface IFBUser {
+    // Base(3)
     id: string
     createdAt: string
     updatedAt: string
@@ -6,7 +7,7 @@ export interface IFBUser {
     username: string
     slug: string
     email: string
-    // Property(4)
+    // Property(3)
     loginType: string
     originalUrl?: string
     thumbnailUrl?: string
