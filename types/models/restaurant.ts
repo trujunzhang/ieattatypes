@@ -9,7 +9,7 @@ export interface IFBRestaurant {
     geoHash: string
     latitude: number
     longitude: number
-    // Common(3)
+    // Common(4)
     displayName: string
     slug: string
     originalUrl: string
