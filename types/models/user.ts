@@ -2,9 +2,8 @@ export interface IFBUser {
     id: string
     createdAt: string
     updatedAt: string
-    // Common(4)
+    // Common(3)
     username: string
-    password: string
     slug: string
     email: string
     // Property(4)
