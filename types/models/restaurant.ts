@@ -11,6 +11,7 @@ export interface IFBRestaurant {
     longitude: number
     // Common(3)
     displayName: string
+    slug: string
     originalUrl: string
     thumbnailUrl: string
     // extra
