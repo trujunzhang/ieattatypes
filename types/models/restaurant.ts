@@ -14,9 +14,12 @@ export interface IFBRestaurant {
     slug: string
     originalUrl: string
     thumbnailUrl: string
-    // extra
+    // for review(2)
+    rate: number
+    reviewCount: number
+    // extra(1)
     extraNote: string
-    // Check google
+    // Check google(1)
     isNew: boolean
     // Google api(8)
     address: string
