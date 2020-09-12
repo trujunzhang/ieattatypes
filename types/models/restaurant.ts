@@ -5,6 +5,10 @@ export interface IFBRestaurant {
     createdAt: string
     updatedAt: string
     creatorId: string | null
+    // extra(1)
+    extraNote: string
+    // Check google(1)
+    isNew: boolean
     // Location(3)
     geoHash: string
     latitude: number
@@ -17,10 +21,6 @@ export interface IFBRestaurant {
     // for review(2)
     rate: number
     reviewCount: number
-    // extra(1)
-    extraNote: string
-    // Check google(1)
-    isNew: boolean
     // Google api(8)
     address: string
     street_number: string
