@@ -5,6 +5,9 @@ export interface IFBReview {
     createdAt: string
     updatedAt: string
     creatorId: string
+    // Common(2)
+    rate: number
+    body: string
     // user(2)
     username: string
     avatarUrl: string
@@ -13,7 +16,4 @@ export interface IFBReview {
     restaurantId?: string
     eventId?: string
     recipeId?: string
-    // Common(2)
-    rate: number
-    body: string
 }
