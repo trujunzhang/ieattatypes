@@ -10,7 +10,7 @@ export interface IFBRestaurant {
     // Check google(1)
     isNew: boolean
     // Location(3)
-    // rHash(length=9)
+    // rHash(length=8)
     rHash: string
     // geoHash(length=12)
     geoHash: string
