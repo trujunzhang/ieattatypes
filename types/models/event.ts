@@ -1,14 +1,15 @@
 export interface IFBEvent {
-    id: string
+    // Base(5)
     uniqueId: string
+    flag: string
     createdAt: string
     updatedAt: string
     creatorId: string
-    restaurantId?: string | null
-    // url: string
+    // Common(4)
     displayName: string
     want: string
     start: string
     end: string
-    flag: string
+    // point(1)
+    restaurantId: string
 }
