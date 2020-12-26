@@ -10,6 +10,9 @@ export interface IFBEvent {
     want: string
     start: string
     end: string
+    // for review(2)
+    rate: number
+    reviewCount: number
     // point(1)
     restaurantId: string
 }

@@ -8,6 +8,9 @@ export interface IFBRecipe {
     // Common(1)
     displayName: string
     price: string
+    // for review(2)
+    rate: number
+    reviewCount: number
     // point(1)
     restaurantId: string
 }
