@@ -8,6 +8,8 @@ export interface IFBRecipe {
     // Common(1)
     displayName: string
     price: string
+    originalUrl: string
+    thumbnailUrl: string
     // for review(2)
     rate: number
     reviewCount: number
