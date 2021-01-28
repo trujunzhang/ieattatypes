@@ -5,11 +5,12 @@ export interface IFBEvent {
     createdAt: string
     updatedAt: string
     creatorId: string
-    // Common(4)
+    // Common(4+1)
     displayName: string
     want: string
     start: string
     end: string
+    waiters: string[]
     // for review(2)
     rate: number
     reviewCount: number
