@@ -5,8 +5,9 @@ export interface IFBRecipe {
     createdAt: string
     updatedAt: string
     creatorId: string
-    // Common(1)
+    // Common(5)
     displayName: string
+    slug: string
     price: string
     originalUrl: string
     thumbnailUrl: string

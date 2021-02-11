@@ -5,8 +5,9 @@ export interface IFBEvent {
     createdAt: string
     updatedAt: string
     creatorId: string
-    // Common(4+1)
+    // Common(5+1)
     displayName: string
+    slug: string
     want: string
     start: string
     end: string
