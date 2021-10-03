@@ -34,3 +34,4 @@ static/
 @types/**/*
 
 .idea/
+.log/
