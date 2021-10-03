@@ -19,9 +19,9 @@ export interface IFBPhoto {
     recipeId?: string
     userId?: string
     // Location(3)
-    geoHash: string
-    latitude: number
-    longitude: number
+    // geoHash: string
+    // latitude: number
+    // longitude: number
     // photo's status
     // status: IFBPhotoStatus
     // offline(1)
